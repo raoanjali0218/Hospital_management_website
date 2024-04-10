@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="donationstyles.css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+
+      <a href="about.html"><img src="logo.jpg" alt=""></a>
+      <div class="nav-links" id="navLinks">
+
+
+        <!-- <i class="fas fa-window-close" onclick="hideMenu()"></i> -->
+        <ul>
+          <li><input type="text" name="" value="" placeholder="Search.."><input type="submit" name="" value="search"></li>
+          <li><a href="index2.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="index2.html#doctors">DOCTORS</a></li>
+          <li><a href="index2.html#speciality">MULTISPECIALITY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+      </div>
+      <!-- <i class="fas fa-bars" onclick="showMenu()"></i> -->
+
+    </nav>
+  </section>
+  <div class="heading">
+
+
+    <h1 style="padding:0;margin:0;color:red;font-size:40px;">Donate</h1>
+
+    <p style="padding:0;margin:0;">Charity is a continuous process toward success and happiness.
+    </p>
+  </div>
+
+  <section>
+
+    <form class="" action="donationconnect.php" method="post">
+      <fieldset class="donationfield">
+        <legend class="legendfield">Donation Page</legend>
+
+
+        <!-- <center> -->
+
+
+
+
+
+        <label>Name</label> <br>
+        <input type="text" name="name" value=""> <br>
+        <label>E-mail</label>  <br>
+        <input type="email" name="email" value=""> <br>
+        <label>Enter Amount</label> <br>
+        <input type="number" name="numbers" value="">
+        <br>
+        <label >Types Of Donation</label> <br>
+        <input type="radio" name="donation" value="donation1"> 
+        <label>Love Offering</label> <br>
+        <input type="radio" name="donation" value="donation2">
+        <label>Building Expansion</label> <br>
+        <input type="radio" name="donation" value="donation3">
+        <label>One time Donation</label>
+
+
+      </fieldset>
+      <center>
+
+
+        <input type="submit" name="save" value="DONATE">
+
+      </center>
+    </form>
+
+
+
+  </section>
+
+
+</body>
+
+</html>

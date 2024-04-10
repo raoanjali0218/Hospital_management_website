@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="contactstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+  <body>
+    <section class = "header">
+      <nav>
+
+          <a href="index2.html"><img src="logo.jpg" alt=""></a>
+        <div class="nav-links" id = "navLinks">
+
+
+          <!-- <i class="fas fa-window-close" onclick="hideMenu()"></i> -->
+          <ul>
+
+            <li><a href="index2.html" target = "_blank">HOME</a></li>
+            <li><a href="about.html" target = "_blank">ABOUT</a></li>
+            <li><a href="index2.html#doctors" target = "_blank"> DOCTORS</a></li>
+            <li><a href="index2.html#speciality" target = "_blank">MULTISPECIALITY</a></li>
+            <li><a href="donation.html" target = "_blank">DONATION</a></li>
+            <li><input type="text" name="" value="" placeholder="Search.."><input type="submit" name="" value="search"></li>
+          </ul>
+
+        </div>
+        <!-- <i class="fas fa-bars" onclick="showMenu()"></i> -->
+
+      </nav>
+    <section class = "contacttable">
+    <table>
+      <tr>
+        <td class = "contact-column">
+         <h2><i class="fas fa-map-marker-alt"></i>Address</h2>
+         <p>7452 Chandigarh University Road <br>,Mohali,Punjab </p>
+         <h2><i class="fas fa-phone-square-alt"></i>Phone</h2>
+         <p>765-527-5943</p>
+         <h2><i class="fas fa-envelope-square"></i>Email</h2>
+         <p>flowerencehospital@gmail.com</p>
+        </td>
+        <td class="message-column">
+          <form class="" action="contact.php" method="post">
+
+
+          <h1 class="heading">Send Message</h1>
+          <!-- <label>Full Name</label> <br> -->
+          <input type="text" name="fullname" value="" placeholder="Your Name" cols="35"> <br>
+          <!-- <label>Email</label> <br> -->
+          <input type="email" name="email" value="" placeholder="Your Email" cols="35"> <br>
+          <!-- <label>Contact Number</label> <br> -->
+          <input type="number" name="phonenumber" value="" placeholder="Your Phone Number">
+          <!-- <label>Type your Message...</label> <br> -->
+
+          <textarea name="comment" rows="4" cols="40" placeholder="Your Message"></textarea> <br>
+
+          <input type="submit" name="save" value="SEND">
+              </form>
+
+
+        </td>
+      </tr>
+    </table>
+    </section>
+
+
+
+  </body>
+</html>

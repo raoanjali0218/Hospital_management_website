@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="patientrecordstyles.css">
+</head>
+
+<body>
+
+  <section class="header">
+    <nav>
+
+      <a href="awards.html"><img src="logo.jpg" alt=""></a>
+      <div class="nav-links" id="navLinks">
+
+
+        <!-- <i class="fas fa-window-close" onclick="hideMenu()"></i> -->
+        <ul>
+          <li><input type="text" name="" value="" placeholder="Search.."><input type="submit" name="" value="search"></li>
+          <li><a href="index2.html" target="_blank">HOME</a></li>
+          <li><a href="about.html" target="_blank">ABOUT</a></li>
+          <li><a href="index2.html#doctors">DOCTORS</a></li>
+          <li><a href="index2.html#speciality">MULTISPECIALITY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+      </div>
+      <!-- <i class="fas fa-bars" onclick="showMenu()"></i> -->
+
+    </nav>
+  </section>
+  <section class="patientrecord">
+    <form class="" action="patientrecordconnect.php" method="post">
+
+
+      <fieldset class="patientrecordfield">
+        <legend class="patientrecordlegend"> Patient Record</legend> <br>
+        <label>Name</label> <br>
+        <input type="text" name="name" value="" required> <br>
+        <label>Medication Allergies</label> <br>
+        <input type="text" name="medicationallergies" value="" required>
+        <br>
+        <label>Family History</label> <br>
+        <input type="text" name="familyhistory" value="" required>
+        <br>
+        <label>Medical History</label> <br>
+        <input type="text" name="medicalhistory" value="" required> <br>
+        <label>Physical Exam</label> <br>
+        <input type="text" name="physicalexam" value="" placeholder="eg.MRI.." required> <br>
+        <label>Allergies</label> <br>
+        <input type="text" name="allergies" value="" required>
+        <br>
+        <label>Last Appointment History</label> <br>
+        <input type="text" name="lastappointmenthistory" value="" required><br>
+
+
+      </fieldset>
+      <center>
+
+
+      <input type="submit" name="save" value="SUBMIT">
+        </center>
+    </form>
+  </section>
+
+
+
+
+
+
+</body>
+
+</html>

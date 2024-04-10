@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name = "viewport" content = "with=device-width,initial-scale = 1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="registrationstyles.css">
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+
+
+
+">
+
+  <body>
+    <section class = "header">
+      <nav>
+
+          <a href="index2.html"><img src="logo.jpg" alt=""></a>
+        <div class="nav-links" id = "navLinks">
+
+
+          <i class="fas fa-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <!-- <li><input type="text" name="" value="" placeholder="Search.."><input type="submit" name="" value="search"></li> -->
+            <li><a href="index2.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index2.html#doctors">DOCTORS</a></li>
+            <li><a href="index2.html#speciality">MULTISPECIALITY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+      </nav>
+
+<h1>Patient Registration Page</h1>
+<form class="" action="insert.php" method="post">
+  <center>
+
+
+  <label>Name:</label> <br>
+  <input type="text" name="name" value=""> <br>
+  <label>Father's/Spouse Name:</label> <br>
+  <input type="text" name="fathersname" value=""> <br>
+  <label>City:</label> <br>
+  <input type="text" name="city" value=""> <br>
+  <label>State:</label> <br>
+  <input type="text" name="state" value=""> <br>
+  <label>Phone Number:</label> <br>
+  <input type="number" name="numbers" value=""> <br>
+  <label>PinCode:</label> <br>
+  <input type="number" name="pincode" value=""> <br>
+  <label>Age:</label> <br>
+  <input type="number" name="age" value=""> <br>
+  <label>Gender:</label> <br>
+  <input type="radio" name="gender" value="m">
+  <label>Male</label> <br>
+  <input type="radio" name="gender" value="f">
+  <label>Female</label> <br>
+  <input type="radio" name="gender" value="o">
+  <label>Others</label> <br>
+  <label>Email</label> <br>
+  <input type="text" name="email" value=""> <br>
+  <label>Patient pre treatment</label> <br>
+  <input type="text" name="patientpre" value=""> <br>
+  <label>Patient Allergy:</label> <br>
+  <input type="text" name="allergy" value=""> <br> <br>
+
+  <input class = "btn" type="submit" name="save" value="SUBMIT">
+  <input type="reset" name="" value="RESET">
+    </center>
+</form>
+
+<!-- JavaScript for toggle menu -->
+<script>
+var navLinks = document.getElementById("navLinks")
+function showMenu(){
+navLinks.style.right = "0";
+
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+
+}
+</script>
+  </body>
+</html>

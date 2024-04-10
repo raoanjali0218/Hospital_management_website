@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="patientappointmentstyles.css">
+
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+
+      <a href="awards.html"><img src="logo.jpg" alt=""></a>
+      <div class="nav-links" id="navLinks">
+
+
+        <!-- <i class="fas fa-window-close" onclick="hideMenu()"></i> -->
+        <ul>
+          <li><input type="text" name="" value="" placeholder="Search.."><input type="submit" name="" value="search"></li>
+          <li><a href="index2.html" target = "_blank">HOME</a></li>
+          <li><a href="about.html" target = "_blank">ABOUT</a></li>
+          <li><a href="index2.html#doctors" target = "_blank" >DOCTORS</a></li>
+          <li><a href="index2.html#speciality" target = "_blank">MULTISPECIALITY</a></li>
+          <li><a href="contact.html" target = "_blank">CONTACT</a></li>
+        </ul>
+
+      </div>
+      <!-- <i class="fas fa-bars" onclick="showMenu()"></i> -->
+
+    </nav>
+  </section>
+  <section>
+    <form class="" action="patientappointmentconnect.php" method="post">
+      <fieldset class="appointmentfieldset">
+        <legend class="appointmentlegend">Doctor Appointment</legend>
+        <!-- <center> -->
+
+
+        <label style="padding-right:10px;">Patient Id:</label>
+        <input type="number" name="patientid" value="">
+        <br>
+        <label style="padding-right:33px;">Name:</label>
+        <input type="text" name="name" value=""> <br>
+        <label style="padding-right:21px;">Disease:</label>
+        <input type="text" name="disease" value=""> <br>
+        <label style="padding-right:27px;"> Doctor:</label>
+
+        <select class="optionselectdoctor" name="doctor" style = "padding-right:5px;">
+          <option  value="no doctor">Select Doctor:</option>
+          <option  value="Dr Jacob">Dr Jacob,Dermatologist</option>
+          <option  value="Dr Leo">Dr Leo,Endocrinologist</option>
+          <option  value="Dr Noah">Dr Noah,Cardiologist</option>
+          <option  value="Dr Oliver">Dr Oliver,Allergist</option>
+          <option  value="Dr George">Dr George,Anestheologist</option>
+          <option  value="Dr Mason">Dr Mason,Neurologist</option>
+
+        </select> <br>
+        <label style="padding-right:40px;">Slot:</label>
+        <select class = "optionselect" name="slot" style="padding-right:-5px">
+          <option   value="not selected">Select Slot</option>
+          <option  value="10:00 AM to 2:00PM">10:00 AM to 2:00PM</option>
+          <option   value="2:00 PM TO 6:00PM">2:00 PM TO 6:00PM</option>
+          <option   value="6:00PM TO 10:00PM">6:00PM TO 10:00PM </option>
+          <option value="10:00 PM TO 2:00 AM">10:00 PM TO 2:00 AM</option>
+          <option  value="2:00 AM TO 6:00 AM">2:00 AM TO 6:00 AM</option>
+          <option   value="6:00 AM TO 10:00 AM">6:00 AM TO 10:00 AM</option>
+
+        </select> <br>
+  </center>
+      </fieldset>
+      <center>
+
+
+      <input type="submit" name="save" value="SUBMIT">
+</center>
+    </form>
+
+  </section>
+</body>
+
+</html>
